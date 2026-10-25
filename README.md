@@ -1,15 +1,15 @@
 # EspelhaTV Livre — atualizações
 
-Distribuição de APKs assinados para Android e Android TV. O código-fonte e a chave de assinatura ficam fora deste repositório público.
+Canal público de APKs assinados do EspelhaTV Livre. Código-fonte e chave de assinatura permanecem privados.
 
-Versão para teste: **0.5.12** (versionCode 19).
+Versão disponível: **0.5.13**, versionCode **20**.
 
-[Baixar o APK 0.5.12](https://github.com/renancameta/espelhatv-livre-updates/releases/download/v0.5.12/EspelhaTV_Livre_0.5.12.apk)
+[Baixar versão 0.5.13](https://github.com/renancameta/espelhatv-livre-updates/releases/tag/v0.5.13)
 
-Instale esta versão uma vez nos aparelhos. O aplicativo passa a consultar `latest.json` ao abrir ou voltar à tela. Quando publicarmos uma versão maior, ele poderá mostrar um aviso de atualização. O download exige confirmação e o Android também pede autorização para instalar.
+A versão corrige a seleção e ativação dos botões pelo controle remoto da TV, com destaque visível e acesso ao cursor do player. Foi verificada por testes automatizados; o teste desta versão na TV física ainda está pendente.
 
-Apenas versões com a mesma identificação e assinatura são aceitas. O app remove sua cópia temporária do APK depois de transferi-la ao instalador.
+A partir da 0.5.12, o app consulta `latest.json` ao abrir ou retornar e oferece versões mais novas. Aceite **Atualizar** e confirme a instalação solicitada pelo Android. Aparelhos com versões anteriores à 0.5.12 precisam instalar uma versão configurada uma vez. Se a 0.5.13 já estiver instalada, ela só oferecerá uma versão futura maior.
 
-O download público desta versão foi conferido sem sessão de navegador: HTTP 200, hash e certificado iguais aos do APK assinado. Isso não é um teste de reprodução ou instalação em TV física.
+O aplicativo confere HTTPS, hash SHA-256, pacote, versão e certificado permanente antes de instalar. Android 8 ou superior. Pacote: `br.com.espelhartv.busca`.
 
-A disponibilidade dos sites e a reprodução de mídias dependem do player, do acesso e dos codecs suportados pelo aparelho.
+SHA-256 do APK 0.5.13: `a24c939c9cecd79967fcd630239a7886d1f41f85158e77bf5036afed092afeec`.
