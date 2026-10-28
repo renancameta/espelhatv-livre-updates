@@ -1,28 +1,19 @@
 # EspelhaTV Livre — distribuição
 
-**Versão oferecida pelo atualizador: 0.5.19 (versionCode 26).**
+**Versão oferecida pelo atualizador: 0.5.20 (versionCode 27).**
 
-[Baixar APK 0.5.19 e consultar notas](https://github.com/renancameta/espelhatv-livre-updates/releases/tag/v0.5.19)
+[Baixar APK 0.5.20 e consultar notas](https://github.com/renancameta/espelhatv-livre-updates/releases/tag/v0.5.20)
 
-A 0.5.19 foi ativada no feed por solicitação expressa do proprietário em 28/10/2026. Ao abrir o aplicativo ou verificar atualizações, uma versão anterior compatível poderá oferecer o download. O Android mantém suas confirmações e verificações de instalação.
+Corrige a falta de cobertura do domínio RedeCanaisTV no bloqueador. Acrescenta filtro visual para o cartão Concluiu/Restam com Abrir próximo anúncio e Remover Anuncios, a faixa VIP e promoções do cabeçalho. Bloqueia as imagens promocionais identificadas, preservando logo principal, início, busca, canais, iframe e controles. Mantém a interface e a ponte de transmissão.
 
-**Play Protect:** o alerta relatado durante a atualização anterior continua sem confirmação de retirada. A contestação do APK 0.5.18 foi enviada ao Google, que confirmou o recebimento. A ativação desta versão não equivale a aprovação do Google e não desativa o Play Protect.
+O filtro trata inserção tardia e reaparecimento. Não abre anúncios nem altera contadores, cookies, créditos ou verificações de acesso. Se o site exigir etapas para liberar um canal, a remoção visual não o libera e a reprodução pode continuar indisponível.
 
-Tratamento de pedidos IMA antes do filme e reforço do receptor da TV, mantendo a interface. O mecanismo de resposta sem anúncios foi confirmado no inspector oficial IMA. A reprodução completa no player real e no aparelho ainda precisa de validação.
+Nove suítes JavaScript, regressões Java, 11 testes Android, compilação e lint passaram. OSV: 69 dependências Maven de runtime sem alertas conhecidos na análise. Header/VIP usam DOM real capturado; o cartão central foi modelado a partir da imagem relatada. Não houve confirmação de reprodução na página nem na TV física.
 
-Passaram oito suítes JavaScript, regressões Java, 11 testes Android, compilação e lint. Consulta OSV de 69 dependências Maven de runtime sem alertas conhecidos na data da análise; isso não é certificação antimalware.
+O aplicativo consulta o feed ao abrir; download e instalação continuam sujeitos às confirmações e verificações do Android. APK universal para celular e Android TV, Android 8 ou superior. Pacote br.com.espelhartv.busca e certificado permanente preservados.
 
-## Resultados externos — 28/10/2026
+**Play Protect:** o alerta da atualização anterior continua sem confirmação de retirada. A contestação do APK 0.5.18 foi enviada ao Google. A publicação da 0.5.20 não equivale a aprovação do Google e não desativa a proteção. Resultados VirusTotal anteriores referem-se aos APKs 0.5.18/0.5.19; não são análise deste novo arquivo.
 
-- [0.5.18: 0/66 detecções](https://www.virustotal.com/gui/file/28f735fabd32a7f1d0187a63c43f46cdcc724c7a25973339c456c2440b7d24e7?nocache=1). Houve 1 timeout e 8 mecanismos sem suporte; Google retornou Undetected.
-- [0.5.19: 0/65 detecções](https://www.virustotal.com/gui/file/dbd51e934093ba6dfd01666c449f4502e06010c985cae751269c1e7323041089?nocache=1). Houve 3 falhas (ALYac, Elastic e Google) e 7 mecanismos sem suporte. Falha não é resultado limpo.
-
-Os resultados não garantem segurança nem alteram por si a classificação do Play Protect.
-
-APK universal para celular e Android TV, Android 8 ou superior. Pacote br.com.espelhartv.busca e certificado permanente preservados.
-
-SHA-256: dbd51e934093ba6dfd01666c449f4502e06010c985cae751269c1e7323041089.
-
-Se uma versão anterior à 0.5.15 apresentar EBADF no atualizador, o instalador corrigido precisa ser recebido por instalação manual do APK, sem desinstalar o aplicativo. As verificações do Android permanecem ativas.
+SHA-256: f42189455315a61189eca396fd296946f96d33c3f9662876ec021f39997c3c5d.
 
 Código-fonte e chave de assinatura permanecem privados.
