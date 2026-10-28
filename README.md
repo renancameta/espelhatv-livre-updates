@@ -1,19 +1,19 @@
-# EspelhaTV Livre — atualizações
+# EspelhaTV Livre — distribuição
 
-Versão disponível: **0.5.18**, versionCode **25**.
+**Candidata 0.5.19 para revisão de segurança.**
 
-[Baixar versão 0.5.18](https://github.com/renancameta/espelhatv-livre-updates/releases/tag/v0.5.18)
+[APK e notas da candidata 0.5.19](https://github.com/renancameta/espelhatv-livre-updates/releases/tag/v0.5.19)
 
-Bloqueador revisado após inspeção da página real: filtros para a máscara transparente de clique publicitário, barra VIP e promoções de cabeçalho, conteúdo adulto e downloads de aplicativos. Preserva o iframe do player, logo principal, menus e controles. As imagens promocionais identificadas também são bloqueadas.
+Foi relatado alerta “App nocivo bloqueado” do Play Protect durante uma atualização da versão instalada 0.5.17. A causa e a classificação do Google continuam sob investigação. Não desative o Play Protect para instalar. Ainda não há resultado de antivírus externo nem decisão de contestação.
 
-A regressão com trechos do DOM capturado falhou no filtro anterior e passou no novo. Testes JavaScript/Java, compilação, lint e testes Android passaram. A reprodução completa e o ensaio físico no celular/TV permanecem pendentes. Não há garantia de eliminar toda publicidade; marcas incorporadas ao próprio vídeo permanecem.
+A candidata acrescenta tratamento de pedidos IMA antes do vídeo e reforça os limites e a autenticação do receptor da TV, mantendo a interface. O mecanismo de resposta sem anúncios foi confirmado no inspector oficial IMA, e os testes de código passaram. A reprodução completa no player real e no aparelho continua pendente.
 
-Mantém a interface aprovada, navegação direta de links, controle remoto, opções reais de qualidade e correção EBADF. APK para celular e Android TV, Android 8 ou superior. Pacote br.com.espelhartv.busca e certificado permanente preservados.
+Oito suítes JavaScript, regressões Java, 11 testes Android, compilação e lint passaram. Consulta OSV completa para 69 dependências Maven de runtime sem alertas conhecidos retornados em 28/10/2026. Isso não equivale a certificação antimalware.
 
-## Instalação
+A candidata **não está ativada no feed automático**. latest.json permanece em 0.5.18/code 25 até a conclusão da revisão externa.
 
-O aplicativo consulta latest.json ao abrir e oferece a versão nova. O download e a instalação exigem confirmação. Se uma versão anterior à 0.5.15 apresentar EBADF, baixe o APK e abra pelo navegador/gerenciador de arquivos do sistema, fora do EspelhaTV. Instale por cima, sem desinstalar ou apagar dados.
+APK universal para celular e Android TV, Android 8 ou superior. Pacote br.com.espelhartv.busca, versionCode 26 e certificado permanente preservados.
 
-SHA-256: 28f735fabd32a7f1d0187a63c43f46cdcc724c7a25973339c456c2440b7d24e7.
+SHA-256 da candidata: dbd51e934093ba6dfd01666c449f4502e06010c985cae751269c1e7323041089.
 
 Código-fonte e chave de assinatura permanecem privados.
