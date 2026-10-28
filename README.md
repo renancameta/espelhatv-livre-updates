@@ -1,17 +1,23 @@
 # EspelhaTV Livre — atualizações
 
-Canal público de APKs assinados. Código-fonte e chave de assinatura permanecem privados.
+Versão disponível: **0.5.15**, versionCode **22**.
 
-Versão disponível: **0.5.14**, versionCode **21**.
+[Baixar versão 0.5.15](https://github.com/renancameta/espelhatv-livre-updates/releases/tag/v0.5.15)
 
-[Baixar versão 0.5.14](https://github.com/renancameta/espelhatv-livre-updates/releases/tag/v0.5.14)
+Corrige o erro **write failed: EBADF (Bad file descriptor)** ao transferir o APK para o instalador do Android.
 
-Tela única de navegador, campo vazio e sem catálogo ou sites predefinidos. Android TV com setas, OK, cursor, Menu e comandos de mídia. Qualidades reais quando oferecidas pelo vídeo e acessíveis ao aplicativo. Bloqueador de anúncios, pop-ups e redirecionamentos; não elimina necessariamente toda publicidade.
+## Se a versão antiga apresentar esse erro
 
-Compilação, lint e testes automatizados passaram. O teste na televisão e no controle físico ainda está pendente.
+Baixe o APK e abra-o pelo navegador ou gerenciador de arquivos do aparelho, fora do EspelhaTV. Instale por cima da versão atual, sem desinstalar nem apagar os dados. Não use o botão de instalação do atualizador antigo para instalar esta correção: ele ainda executa o código com defeito. Essa instalação manual é necessária uma vez.
 
-A partir da 0.5.12, o app consulta latest.json ao abrir ou retornar e oferece versões mais novas. Aceite Atualizar e confirme a instalação solicitada pelo Android. Versões anteriores à 0.5.12 precisam instalar uma versão configurada uma vez.
+## Aplicativo
 
-O app confere HTTPS, SHA-256, pacote, versão e certificado permanente. Android 8 ou superior. Pacote: br.com.espelhartv.busca.
+Mantém a tela única do navegador, o endereço vazio, o controle remoto, o cursor e os recursos de reprodução da 0.5.14. APK para celular e Android TV, Android 8 ou superior. Pacote br.com.espelhartv.busca. Mesmo certificado permanente.
 
-SHA-256 do APK 0.5.14: 824a8d16401b614d35a4e0a6eab6197b1eacfaaef827ff92011ca6d35d87824c.
+A partir da 0.5.15, o fluxo interno fecha a gravação uma única vez antes de confirmar a sessão. As futuras versões continuam sendo oferecidas pelo feed ao abrir o app e exigem confirmação do Android.
+
+O erro antigo foi reproduzido em teste. A correção, a compilação, o lint e os testes automatizados passaram. O teste de instalação no equipamento físico ainda está pendente.
+
+SHA-256 do APK: 4d730e572c4b6e648481a38dc4b91bfc7d2cfa9e21fb1a0642f863eaeb4bc6ed.
+
+Código-fonte e chave de assinatura permanecem privados.
