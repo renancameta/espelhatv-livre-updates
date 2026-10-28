@@ -1,15 +1,17 @@
 # EspelhaTV Livre — atualizações
 
-Canal público de APKs assinados do EspelhaTV Livre. Código-fonte e chave de assinatura permanecem privados.
+Canal público de APKs assinados. Código-fonte e chave de assinatura permanecem privados.
 
-Versão disponível: **0.5.13**, versionCode **20**.
+Versão disponível: **0.5.14**, versionCode **21**.
 
-[Baixar versão 0.5.13](https://github.com/renancameta/espelhatv-livre-updates/releases/tag/v0.5.13)
+[Baixar versão 0.5.14](https://github.com/renancameta/espelhatv-livre-updates/releases/tag/v0.5.14)
 
-A versão corrige a seleção e ativação dos botões pelo controle remoto da TV, com destaque visível e acesso ao cursor do player. Foi verificada por testes automatizados; o teste desta versão na TV física ainda está pendente.
+Tela única de navegador, campo vazio e sem catálogo ou sites predefinidos. Android TV com setas, OK, cursor, Menu e comandos de mídia. Qualidades reais quando oferecidas pelo vídeo e acessíveis ao aplicativo. Bloqueador de anúncios, pop-ups e redirecionamentos; não elimina necessariamente toda publicidade.
 
-A partir da 0.5.12, o app consulta `latest.json` ao abrir ou retornar e oferece versões mais novas. Aceite **Atualizar** e confirme a instalação solicitada pelo Android. Aparelhos com versões anteriores à 0.5.12 precisam instalar uma versão configurada uma vez. Se a 0.5.13 já estiver instalada, ela só oferecerá uma versão futura maior.
+Compilação, lint e testes automatizados passaram. O teste na televisão e no controle físico ainda está pendente.
 
-O aplicativo confere HTTPS, hash SHA-256, pacote, versão e certificado permanente antes de instalar. Android 8 ou superior. Pacote: `br.com.espelhartv.busca`.
+A partir da 0.5.12, o app consulta latest.json ao abrir ou retornar e oferece versões mais novas. Aceite Atualizar e confirme a instalação solicitada pelo Android. Versões anteriores à 0.5.12 precisam instalar uma versão configurada uma vez.
 
-SHA-256 do APK 0.5.13: `a24c939c9cecd79967fcd630239a7886d1f41f85158e77bf5036afed092afeec`.
+O app confere HTTPS, SHA-256, pacote, versão e certificado permanente. Android 8 ou superior. Pacote: br.com.espelhartv.busca.
+
+SHA-256 do APK 0.5.14: 824a8d16401b614d35a4e0a6eab6197b1eacfaaef827ff92011ca6d35d87824c.
