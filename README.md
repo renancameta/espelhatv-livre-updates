@@ -1,27 +1,31 @@
 # EspelhaTV Livre — distribuição
 
-**Versão atual: 0.5.21 (versionCode 28), com nova assinatura.**
+**Versão atual: 0.5.22 (versionCode 29).**
 
-[Baixar APK e consultar as notas de instalação](https://github.com/renancameta/espelhatv-livre-updates/releases/tag/v0.5.21)
+[Baixar APK e consultar as notas](https://github.com/renancameta/espelhatv-livre-updates/releases/tag/v0.5.22)
 
-## Instalação a partir de uma versão antiga
+## Correção do redirecionamento ao tocar no vídeo
 
-A chave de assinatura anterior foi perdida. A 0.5.21 usa uma nova chave autorizada pelo proprietário. O Android não permite instalar este APK por cima das versões com a assinatura antiga: é necessário desinstalar a versão anterior e instalar manualmente o novo APK. A desinstalação pode apagar os dados locais. Não tentar instalar esta versão pelo atualizador antigo.
+Bloqueia o caminho publicitário da Shopee relatado e mantém links de players incorporados dentro do próprio frame. Toque ou sinal de redirecionamento, isoladamente, não autorizam trocar a página principal por outro domínio. O endereço seguro é preservado; páginas rejeitadas não substituem o endereço pela finalização do carregamento. O fallback interrompe uma saída já iniciada e reabre a página segura, podendo reiniciar o player.
 
-Depois dessa reinstalação, as próximas versões poderão ser oferecidas pelo próprio aplicativo, com a mesma nova chave. O novo endereço é latest-20261104.json. O feed legado latest.json permanece na 0.5.20 para não oferecer APK incompatível aos aparelhos antigos. O Android continuará pedindo confirmação para instalar.
+Mantém interface, controles, qualidade e ponte de transmissão. Links externos sem informações suficientes para confirmar a navegação ficam disponíveis em Configurações para abertura deliberada; o campo de endereço continua permitindo escolher um site.
 
-## Alterações e validação
+## Atualização e assinatura
 
-Inclui indicador de carregamento e filtros para as camadas publicitárias observadas na página relatada. Preserva a interface, player, controles, navegação e ponte do celular. Não há garantia de bloquear toda publicidade ou de liberar conteúdo que exija alguma etapa de acesso.
+A 0.5.22 usa a mesma assinatura da 0.5.21 e pode atualizar essa versão sem desinstalar. O aplicativo consulta latest-20261104.json ao abrir; download e instalação continuam sujeitos à confirmação e às verificações do Android.
 
-Dez suítes JavaScript, regressões Java, 14 testes Android, compilação e lint passaram: zero erros e 22 avisos. Consulta OSV sobre 69 dependências de runtime completa, sem alertas conhecidos; não é laudo antimalware. Sete assets do APK conferidos com o código testado. O APK público foi baixado sem sessão e verificado por hash, pacote, versão, certificado e alinhamento.
+Versões com a chave antiga (até 0.5.20) precisam da reinstalação manual já documentada porque a chave anterior foi perdida. Desinstalar pode apagar dados locais. O feed legado latest.json permanece na 0.5.20 para não oferecer um APK incompatível àquelas instalações.
 
-APK universal para celular e Android TV, Android 8 ou superior. Não é um aplicativo Tizen. Instalação, controle remoto e reprodução na TV física ainda não foram confirmados nesta versão.
+## Validação
 
-**Play Protect:** o alerta anterior continua sem confirmação de retirada. A criação de outra chave não equivale a aprovação do Google nem desativa a proteção. A contestação anterior refere-se ao APK 0.5.18; nenhum resultado antimalware anterior deve ser atribuído a este novo arquivo.
+Dez suítes JavaScript, regressões Java, 21 testes Android, compilação e lint passaram: zero erros e 22 avisos de lint. OSV: 69 dependências de runtime, consulta completa, sem alertas conhecidos; não é laudo antimalware. Os sete assets do APK correspondem ao código testado. O APK público foi baixado sem sessão e verificado por hash, pacote, versão, certificado e alinhamento.
 
-SHA-256 do APK: 84101afabca310c3982e0a0a445e9d2350b6efbc89b7ee04014691d7af515af4.
+O cenário é baseado na imagem fornecida e em regressões do WebView e do script de links. O site anterior do filme e sua sequência de requisições não aparecem na imagem; não houve reprodução real do filme ou ensaio desta versão na TV física. Não há garantia de bloquear toda publicidade. APK universal para Android 8 ou superior; não é aplicativo Tizen.
 
-SHA-256 do certificado novo: 84ce6393b645d70415f43c86e779c3799316541adf57e93c8c3b0fdc5b06d7b4.
+**Play Protect:** o alerta anterior continua sem confirmação de retirada. Esta publicação não representa aprovação do Google e mantém as proteções do Android. Resultados antimalware e contestação anteriores não equivalem à análise deste novo APK.
+
+SHA-256 do APK: d07eb3a95846c1727363b3e5a3f45d5f96d0bac12593b7abfe0de3c2e52a06b8.
+
+SHA-256 do certificado: 84ce6393b645d70415f43c86e779c3799316541adf57e93c8c3b0fdc5b06d7b4.
 
 Código-fonte, chave e senhas não ficam neste repositório público.
